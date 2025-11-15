@@ -1,10 +1,10 @@
-🚀 Sounding Rocket Descent Simulation (MATLAB/Simulink)
+**🚀 Sounding Rocket Descent Simulation (MATLAB/Simulink)**
 
 This project simulates the descent and parachute recovery of a sounding rocket from ~100 km altitude. It includes both a single-run descent and a Monte Carlo simulation to evaluate landing dispersion under varying wind and initial conditions.
 
 The simulation is built using MATLAB and Simulink.
 
-✨ Features
+**✨ Features**
 
 Simulates rocket descent from 100,000 m
 
@@ -20,7 +20,7 @@ Monte Carlo batch simulation (100 runs)
 
 Geographic ground tracks on satellite maps
 
-📁 Included Files
+**📁 Included Files**
 
 ParachuteSimV1_Main.m
 Main MATLAB script that sets parameters, runs the Simulink model, generates plots, and performs Monte Carlo analysis.
@@ -28,7 +28,7 @@ Main MATLAB script that sets parameters, runs the Simulink model, generates plot
 ParachuteSimV1.slx
 Simulink model implementing descent dynamics, drag, wind, and environment.
 
-🧪 Monte Carlo Simulation
+**🧪 Monte Carlo Simulation**
 
 The Monte Carlo section varies:
 
@@ -42,7 +42,7 @@ Wind disturbance timing
 
 This produces a spread of descent trajectories and landing locations.
 
-📊 Output Plots
+**📊 Output Plots**
 
 The script automatically creates:
 
@@ -54,7 +54,7 @@ Monte Carlo trajectory cloud
 
 Landing dispersion map
 
-▶️ How to Run
+**▶️ How to Run**
 
 Clone the repository:
 
@@ -68,7 +68,7 @@ ParachuteSimV1_Main
 
 Ensure ParachuteSimV1.slx is in the same folder.
 
-📝 Notes
+**📝 Notes**
 
 Script uses local latitude/longitude and date/time for converting trajectories to geographic coordinates.
 
@@ -76,7 +76,7 @@ Atmospheric density is currently simplified but can be replaced with a higher-fi
 
 Parallel Computing Toolbox improves Monte Carlo speed.
 
-Author
+**Author**
 
 Hrsh Shah
 Aerospace engineering & recovery subsystems lead (AIAA competition team).
